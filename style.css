@@ -112,6 +112,25 @@ body {
   .presentation-image {
     flex: 1;
     text-align: center;
+      
+  .github-button {
+  background-image: url('Images_Portfolio/GitHub.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.github-button:hover {
+  opacity: 0.8;
+}
+
     padding: 20px;
   }
   
